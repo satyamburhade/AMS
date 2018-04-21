@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="View Attendance"></item>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/cse">
+            <menu>
+                <item
+                    android:id="@+id/BE"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="BE"></item>
+                <item
+                    android:id="@+id/TE"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="TE"></item>
+                <item
+                    android:id="@+id/SE"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="SE"></item>
+            </menu>
+        </item>
+        <item android:title="@string/mech">
+            <menu>
+                <item
+                    android:id="@+id/BEMECH"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="BE"></item>
+                <item
+                    android:id="@+id/TEMECH"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="TE"></item>
+                <item
+                    android:id="@+id/SEMECH"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="SE"></item>
+            </menu>
+        </item>
+        <item android:title="CIVIL" >
+
+            <menu>
+                <item android:title="BE" android:icon="@drawable/ic_menu_send" android:id="@+id/BECIVIL"></item>
+                <item
+                    android:id="@+id/TECIVIL"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="TE"></item>
+                <item
+                    android:id="@+id/SECIVIL"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="SE"></item>
+            </menu>
+        </item>
+        <item android:title="@string/e_tc">
+
+            <menu>
+                <item
+                    android:id="@+id/BEETC"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="BE"></item>
+                <item
+                    android:id="@+id/TEETC"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="TE"></item>
+                <item
+                    android:id="@+id/SEETC"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="SE"></item>
+            </menu>
+        </item>
+        <item android:title="@string/mba">
+
+            <menu>
+                <item
+                    android:id="@+id/SEMBA"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="SE"></item>
+
+                <item
+                    android:id="@+id/FEMBA"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="FE"></item>
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.attandancemgmtsys.Drawer"
+    tools:showIn="@layout/app_bar_drawer">
+
+    <Button
+        android:id="@+id/CSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/transparent"
+        android:onClick="cseClick"
+        android:text="@string/cse"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Civil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Logo" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="330dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/CSE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/diems_logo" />
+
+    <Button
+        android:id="@+id/Mech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/transparent"
+        android:onClick="mechClick"
+        android:text="@string/mech"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/E_TC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Civil" />
+
+    <Button
+        android:id="@+id/Civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/transparent"
+        android:onClick="civilClick"
+        android:text="@string/civil"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Mech"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CSE" />
+
+    <Button
+        android:id="@+id/E_TC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/transparent"
+        android:onClick="e_tcClick"
+        android:text="@string/e_tc"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/MBA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mech" />
+
+    <Button
+        android:id="@+id/MBA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/transparent"
+        android:onClick="mbaClick"
+        android:text="@string/mba"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/E_TC" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <FrameLayout
+        android:id="@+id/HODPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="330dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="44dp"
+                android:contentDescription="@string/logo"
+                android:onClick="click"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/diems_logo" />
+
+            <Button
+                android:id="@+id/New"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="46dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="84dp"
+                android:background="@android:color/transparent"
+                android:onClick="forNewUser"
+                android:text="@string/new_users_request"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/view_att"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <Button
+                android:id="@+id/view_att"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="167dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginStart="93dp"
+                android:layout_marginTop="46dp"
+                android:background="@android:color/transparent"
+                android:onClick="viewAttendance"
+                android:text="@string/view_attendance"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/New" />
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

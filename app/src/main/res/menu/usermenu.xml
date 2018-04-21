@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/access"
+        android:onClick="accessPermission"
+        android:title="@string/access_permissions"></item>
+    <item android:id="@+id/DenyAccess"
+        android:title="@string/denyaccess"
+        android:onClick="denyAccess">
+    </item>
+    <item
+        android:id="@+id/Roll"
+        android:title="@string/assign_roll">
+        <menu>
+            <item
+                android:id="@+id/ClassTeacher"
+                android:onClick="classTeacher"
+                android:title="@string/class_teacher" />
+
+            <item
+                android:id="@+id/Staff"
+                android:onClick="staff"
+                android:title="@string/staff" />
+        </menu>
+    </item>
+    <item android:id="@+id/AssignSub"
+        android:title="@string/assign_subject"
+        android:onClick="AllocateSub">
+    </item>
+    <item android:id="@+id/AssignPrac"
+        android:title="@string/assign_practical"
+        android:onClick="AllocatePrac">
+    </item>
+    <item
+        android:id="@+id/Delete"
+        android:icon="@android:drawable/ic_delete"
+        android:onClick="deleteUser"
+        android:title="@string/delete"></item>
+</menu>
