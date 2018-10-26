@@ -37,9 +37,9 @@ public class ClassTeacher extends AppCompatActivity {
 
 }
 //              FUTURE SCOPE
-/*Student sign up so class teacher work will be reduced
-  * Student can only view his attendance of all subject
-   * class teacher can edit student information same like hod does*/
+/*Student can sign up using this Application and henceforth the workload of class teacher will be reduced
+  * Student can only view his/her attendance of all subject
+   * class teacher can edit student information same like H.O.D does*/
 
 
     /*          WORKING OF CURRENT

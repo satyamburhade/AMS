@@ -62,7 +62,7 @@ public class StudentsInfo extends AppCompatActivity {
         Cursor res=myDb.DisplayStudInfo();//res have some property
         if(res.getCount()==0)
         {
-            //message
+            //Error messagr
             showMessage("Error","No data to show");
             return;
         }
