@@ -38,7 +38,7 @@ public class TakeAtt extends AppCompatActivity {
     Spinner sublist,praclist,batchlist;
     String sl,pl,bl;
 
-        //Note make seperate sub prac and extra
+        //Note make seperate subject practical and extras
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_take_att);
@@ -79,7 +79,7 @@ public class TakeAtt extends AppCompatActivity {
                 @Override
                 public void onDateSet(DatePicker arg0,
                                       int arg1, int arg2, int arg3) {
-                    // TODO Auto-generated method stub
+                   
                     // arg1 = year
                     // arg2 = month
                     // arg3 = day
@@ -183,6 +183,7 @@ public class TakeAtt extends AppCompatActivity {
                                 }
                             }
                         }
+                        //trials
                        /* else if (sl.contentEquals("select sub")) {
                             String numbers[] = present.getText().toString().split("\\s* \\s*");
                             for (int i = 0; i < numbers.length; i++) {
