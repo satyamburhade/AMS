@@ -38,7 +38,7 @@ public class TakeAtt extends AppCompatActivity {
     Spinner sublist,praclist,batchlist;
     String sl,pl,bl;
 
-        //Note make seperate sub prac and extra
+        //Note make seperate subject practical and extras
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_take_att);
