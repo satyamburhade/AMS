@@ -24,7 +24,7 @@
             android:label="@string/Log_in_page_Name" />
         <activity
             android:name=".HOD"
-            android:label="HOD" />
+            android:label="Head Of Depatment" />
         <activity
             android:name=".SignIn"
             android:label="@string/Sign_in_page_Name" />
