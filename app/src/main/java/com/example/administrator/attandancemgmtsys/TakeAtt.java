@@ -183,6 +183,7 @@ public class TakeAtt extends AppCompatActivity {
                                 }
                             }
                         }
+                        //trials
                        /* else if (sl.contentEquals("select sub")) {
                             String numbers[] = present.getText().toString().split("\\s* \\s*");
                             for (int i = 0; i < numbers.length; i++) {
