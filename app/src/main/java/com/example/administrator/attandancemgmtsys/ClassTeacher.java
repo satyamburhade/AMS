@@ -44,7 +44,7 @@ public class ClassTeacher extends AppCompatActivity {
 
     /*          WORKING OF CURRENT
 
-   * while taking attendance we can take sub + prac at a time
+   * while taking attendance we can take sub + prac simultaneously
    * for prac attendance no need of batch column
    * for view attendance batch column is useful
    * check sub while taking attendance so we need to compare user_table values with takeAtt spinner values
